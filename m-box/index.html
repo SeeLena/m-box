@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M-box</title>
+    <link rel="stylesheet" href="animation.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img src="img/logo.svg" alt="">
+        </a>
+        <div class="menu__icon">
+            <span></span>
+        </div>
+        <div class="menu__body">
+            <nav class="menu">
+                <ul class="header__link_box">
+                    <li class="header__link_item"><a class="header__link header__link_active" href="#">Home</a></li>
+                    <li class="header__link_item"><a class="header__link" href="#">TV Shows</a></li>
+                    <li class="header__link_item"><a class="header__link" href="#">Movies</a></li>
+                    <li class="header__link_item"><a class="header__link" href="#">Series</a></li>
+                </ul>
+            </nav>
+            <nav class="header__ic_box">
+                <a class="header__ic" href="#"><img src="img/search.svg" alt=""></a>
+                <a class="header__ic" href="#"><img src="img/notification.svg" alt=""></a>
+                <a class="header__ic" href="#"><img src="img/account.svg" alt=""></a>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="poster">
+            <img class="poster__img" src="img/poster-img.jpg" alt="">
+            <article class="description">
+                <h1 class="description__heading">Zack Snyder's Justice League</h1>
+                <div class="description__info">
+                    <p class="description__info_text description__info_year">2021</p>
+                    <p  class="description__info_text description__info_age">18+</p>
+                    <p  class="description__info_text description__info_duration">4h 2min</p>
+                    <div class="description__info_rating-box">
+                        <p class="description__info_rating">8.8</p>
+                        <img src="img/rating-img.svg" alt="">
+                    </div>
+                </div>
+                <p class="description__text">Determined to ensure Superman's ultimate sacrifice was not in vain, Bruce Wayne aligns forces with Diana Prince with plans to recruit a team of metahumans to protect the world from an approaching threat of catastrophic proportions.</p>
+                <button onclick="document.location='index.html'" class="button button_watch"><i class="fas fa-play"></i>Watch</button>
+                <button onclick="document.location='index.html'" class="button button_information">More information</button>
+            </article>
+        </div>
+        <div class="trending trending_show">
+            <div class="trending__box">
+                <a class="section__heading_link" href="#">
+                    <div class="section__restangle"></div>
+                    <h3 class="section__heading">Trending TV Shows</h3>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                <div class="trending__item trending__item_start">
+                    <a href="#" class="trending__card">
+                        <img class="trending__card_img" src="img/shows/shows-card-1.png" alt="">
+                    </a>
+                </div>
+                <div class="trending__item">
+                    <a href="#" class="trending__card">
+                        <img class="trending__card_img" src="img/shows/shows-card-2.png" alt="">
+                    </a>
+                </div>
+                <div class="trending__item">
+                    <a href="#" class="trending__card">
+                        <img class="trending__card_img" src="img/shows/shows-card-3.png" alt="">
+                    </a>
+                </div>
+                <div class="trending__item">
+                    <a href="#" class="trending__card">
+                        <img class="trending__card_img" src="img/shows/shows-card-4.png" alt="">
+                    </a>
+                </div>
+                <div class="trending__item">
+                    <a href="#" class="trending__card">
+                        <img class="trending__card_img" src="img/shows/shows-card-5.png" alt="">
+                    </a>
+                </div>
+                <div class="trending__item">
+                    <a href="#" class="trending__card">
+                        <img class="trending__card_img" src="img/shows/shows-card-6.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="trending trending_movies">
+            <div class="trending__box">
+                <a class="section__heading_link" href="#">
+                    <div class="section__restangle"></div>
+                    <h3 class="section__heading">Trending TV Shows</h3>
+                    <i class="fas fa-chevron-right"></i>
+                </a>
+                <div class="trending__item trending__item_start">
+                    <a href="#" class="trending__card">
+                        <img class="trending__card_img" src="img/movies/movies-card-1.png" alt="">
+                    </a>
+                </div>
+                <div class="trending__item">
+                    <a href="#" class="trending__card">
+                        <img class="trending__card_img" src="img/movies/movies-card-2.png" alt="">
+                    </a>
+                </div>
+                <div class="trending__item">
+                    <a href="#" class="trending__card">
+                        <img class="trending__card_img" src="img/movies/movies-card-3.png" alt="">
+                    </a>
+                </div>
+                <div class="trending__item">
+                    <a href="#" class="trending__card">
+                        <img class="trending__card_img" src="img/movies/movies-card-4.png" alt="">
+                    </a>
+                </div>
+                <div class="trending__item">
+                    <a href="#" class="trending__card">
+                        <img class="trending__card_img" src="img/movies/movies-card-5.png" alt="">
+                    </a>
+                </div>
+                <div class="trending__item">
+                    <a href="#" class="trending__card">
+                        <img class="trending__card_img" src="img/movies/movies-card-6.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <button onclick="document.location='index.html'" class="button button_trending">See more</button>
+        </div>
+        <div class="generes">
+            <a class="section__heading_link" href="#">
+                <div class="section__restangle"></div>
+                <h3 class="section__heading">Popular Genres</h3>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+            <div class="generes__boxes_wrapper">
+                <a href="#" class="generes__boxes generes__boxes_romance">
+                    <img src="img/generes-romance.svg" alt="">
+                    <p class="generes__boxes_text">Romance</p>
+                </a>
+                <a href="#" class="generes__boxes generes__boxes_drama">
+                    <img src="img/generes-drama.svg" alt="">
+                    <p class="generes__boxes_text">Drama</p>
+                </a>
+                <a href="#" class="generes__boxes generes__boxes_historical">
+                    <img src="img/generes-history.svg" alt="">
+                    <p class="generes__boxes_text">Historical</p>
+                </a>
+                <a href="#" class="generes__boxes generes__boxes_action">
+                    <img src="img/generes-act.svg" alt="">
+                    <p class="generes__boxes_text">Action</p>
+                </a>
+                <a href="#" class="generes__boxes generes__boxes_sci">
+                    <img src="img/generes-sci.png" alt="">
+                    <p class="generes__boxes_text">Sci-fi</p>
+                </a>
+                <a href="#" class="generes__boxes generes__boxes_horror">
+                    <img src="img/generes-horror.svg" alt="">
+                    <p class="generes__boxes_text">Horror</p>
+                </a>
+                <a href="#" class="generes__boxes generes__boxes_comedy">
+                    <img src="img/generes-comedy.svg" alt="">
+                    <p class="generes__boxes_text">Comedy</p>
+                </a>
+                <a href="#" class="generes__boxes generes__boxes_doc">
+                    <img src="img/generes-doc.svg" alt="">
+                    <p class="generes__boxes_text">Documentary</p>
+                </a>
+            </div>
+        </div>
+        <div class="actors">
+            <a class="section__heading_link" href="#">
+                <div class="section__restangle"></div>
+                <h3 class="section__heading">Popular Actors & Directors</h3>
+                <i class="fas fa-chevron-right"></i>
+            </a>
+            <div class="actors__block_box">
+                <a href="#" class="actors__block">
+                    <img src="img/cast/cast-1.png" alt="">
+                    <h4 class="actors__block_text">Samantha Bowen</h4>
+                </a>
+                <a href="#"  class="actors__block">
+                    <img src="img/cast/cast-2.png" alt="">
+                    <h4 class="actors__block_text">Rhys Birch</h4>
+                </a>
+                <a href="#"  class="actors__block">
+                    <img src="img/cast/cast-3.png" alt="">
+                    <h4 class="actors__block_text">James Holloway</h4>
+                </a>
+                <a href="#"  class="actors__block">
+                    <img src="img/cast/cast-4.png" alt="">
+                    <h4 class="actors__block_text">Joshua Walton</h4>
+                </a>
+                <a href="#"  class="actors__block">
+                    <img src="img/cast/cast-5.png" alt="">
+                    <h4 class="actors__block_text">Patrick Elliott</h4>
+                </a>
+                <a href="#"  class="actors__block">
+                    <img src="img/cast/cast-6.png" alt="">
+                    <h4 class="actors__block_text">Morgan O'Neill</h4>
+                </a>
+            </div>
+            
+        </div>
+        <div class="banner-soon">
+            <a href="#" class="banner-soon__left">
+                <img class="banner-soon__img" src="img/banner-soon.jpg" alt="">
+            </a>
+            <a href="#" class="banner-soon__right">
+                <img class="banner-soon__ic" src="img/banner-soon-ic.png" alt="">
+                <h3 class="banner-soon__text">Coming Soon...</h3>
+            </a> 
+        </div>
+        <div class="banner-register">
+            <h1 class="banner-register__heading">Are You New Here ? <br> Don’t wait, Register Now. </h1>
+            <button onclick="document.location='index.html'" class="button button_banner-register">Register Now</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <a class="logo" href="index.html">
+            <img src="img/logo.svg" alt="">
+        </a>
+        <div class="footer__link_box">
+            <a class="footer__link" href="#">Voice over and Subtitle </a>
+            <a class="footer__link" href="#">Media Center</a>
+            <a class="footer__link" href="#">Privacy</a>
+            <a class="footer__link" href="#">Contact us</a>
+           <a class="footer__link" href="#">Voice Description</a>
+            <a class="footer__link" href="#">Investor Relations</a>
+            <a class="footer__link" href="#">Legal Provisions</a>
+            <a class="footer__link" href="#">Help Center</a>
+            <a class="footer__link" href="#">Job Opportunities</a>
+            <a class="footer__link" href="#">Cookies Preferences</a>
+            <a class="footer__link" href="#">Gift Cards</a>
+            <a class="footer__link" href="#">Terms of Use</a>
+            <a class="footer__link" href="#">Corporate Informations</a>
+        </div>
+    </footer>
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+    <script src="scripts/jquery.viewportchecker.min.js"></script>
+    <script src="scripts/animated.page.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
